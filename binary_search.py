@@ -114,7 +114,7 @@ def count_repeats(xs, x):
     if a_left is None or a_right is None:
         return 0
     else:
-        return a_right-a_left+1
+        return a_right - a_left + 1
 
 
 def argmin(f, lo, hi, epsilon=1e-3):

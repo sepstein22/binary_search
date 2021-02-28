@@ -22,9 +22,6 @@ def find_smallest_positive(xs):
     True
     '''
 
-    left = 0
-    right = len(xs) - 1
-
     def go(left, right):
         if xs[left] > 0:
             return left
